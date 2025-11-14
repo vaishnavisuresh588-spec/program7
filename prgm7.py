@@ -13,7 +13,13 @@ else:
 total = sum(scores)
 average = total / len(scores)
 
+# Additional features (local branch logic)
+maximum = max(scores)
+minimum = min(scores)
+
 # Display all results
 print(f"Scores entered: {scores}")
 print(f"Sum of scores: {total}")
 print(f"Average score: {average:.2f}")
+print(f"Maximum score: {maximum}")
+print(f"Minimum score: {minimum}")
